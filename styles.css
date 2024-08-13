@@ -4,6 +4,7 @@
     background-position-x: right;
     flex-wrap: wrap;
     min-width: 250px;
+    margin-right: 0px;
 }
 
 .imagen1 {
@@ -98,5 +99,11 @@ body {
 @media (max-width:550px) {
     .videito {
         size: 25px;
+    }
+
+    .texto2 {
+        margin: 0px;
+        size: 5px;
+        margin-right: 0px;
     }
 }

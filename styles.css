@@ -1,6 +1,6 @@
 .div1 {
     display: flex;
-    background-color: rgb(161, 130, 98);
+    background-color: rgb(231, 206, 184);
     background-position-x: right;
     flex-wrap: wrap;
     min-width: 250px;
@@ -90,7 +90,7 @@
 }
 
 body {
-    background-color: rgb(231, 206, 184);
+    background-color: rgb(161, 130, 98;
 }
 
 .home {

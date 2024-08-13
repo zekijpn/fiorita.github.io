@@ -1,6 +1,6 @@
 .div1 {
     display: flex;
-    background-color: rgb(231, 206, 184);
+    background-color: rgb(161, 130, 98);
     background-position-x: right;
 }
 
@@ -49,11 +49,11 @@
 }
 
 .div {
-    background-color: rgb(161, 130, 98);
+    background-color: rgb(231, 206, 184);
 }
 
 .texto3 {
-    background-color: rgb(161, 130, 98);
+    background-color: rgb(231, 206, 184);
 }
 
 .texto3 {

@@ -1,7 +1,9 @@
 .div1 {
     display: flex;
-    background-color: rgb(161, 130, 98);
+    background-color: rgb(231, 206, 184);
     background-position-x: right;
+    flex-wrap: wrap;
+    min-width: 250px;
 }
 
 .imagen1 {
@@ -17,11 +19,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 55px;
     margin-top: 30px;
-
+    flex: 1;
 }
 
 .h4 {
-    margin-left: 750px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     size: 50px;
     font-size: x-large;
@@ -46,14 +47,8 @@
     font-family: 'Courier New', Courier, monospace;
     color: aliceblue;
     margin-top: 0px;
-}
+    flex: 2;
 
-.div {
-    background-color: rgb(231, 206, 184);
-}
-
-.texto3 {
-    background-color: rgb(231, 206, 184);
 }
 
 .texto3 {
@@ -62,6 +57,7 @@
     margin-right: 0px;
     font-family: 'Courier New', Courier, monospace;
     color: aliceblue;
+    flex: 3;
 }
 
 .imagen2 {
@@ -84,10 +80,27 @@
     margin-right: 0px;
     font-family: 'Courier New', Courier, monospace;
     color: aliceblue;
+    flex: 4;
 }
 
 .imagen4 {
     width: 600px;
     height: 400px;
-    margin-top: 2¿0px;
+    margin-top: 20px;
+}
+
+body {
+    background-color: rgb(161, 130, 98);
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+
+@media (max-width:250px) {
+    .videito {
+        size: 25px;
+    }
 }
